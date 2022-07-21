@@ -13,8 +13,9 @@ function J2EE() {
                         <h1 className='text-4xl font-semibold '><span className='text-white  text-6xl font-extrabold font-popins '>J</span>ava Training</h1>
                        
                        <ul className='flex'>
-                        <li className='flex py-5 px-3'><button className=' rounded-full p-3  px-1 py-1 hover:bg-blue-700   flex  text-justify hover:ring-4 ring-white transition ease-in-out duration-100'><Link to="/home">Home</Link></button> <span className='py-1 px-4'>J2EE Training</span></li>
+                        <li className='flex py-5 px-3'><button className=' rounded-full p-3  px-1 py-1 hover:bg-blue-700   flex  text-justify hover:ring-4 ring-white transition ease-in-out duration-100'><Link to="/home">Home</Link></button></li>
                         <li className='flex py-5 px-3'><button className=' rounded-full p-3  px-1 py-1 hover:bg-blue-700   flex  text-justify ring-4 ring-white transition ease-in-out duration-100'><Link to="/java">CoreJava Training</Link></button></li>
+                        <li className='flex py-5 px-3 cursor-not-allowed'><button className=' rounded-full p-3  px-1 py-1 hover:bg-blue-700   flex  text-justify hover:ring-4  cursor-not-allowed  '>J2EE Training </button></li>
                        </ul>
                     </div>
 
@@ -22,10 +23,10 @@ function J2EE() {
             </div>
             <div className='bg-sky-50'>
                 <div>
-                    <h1 className='text-2xl font-popins p-5 '>
+                    <h1 className='text-2xl font-popins p-5 px-28'>
                         <span className='text-indigo-900  text-3xl font-extrabold '>J</span>2EE Training
                     </h1>
-                    <div className='px-5 text-2xl font-semibold font-popins flex justify-center'>
+                    <div className='text-2xl font-semibold font-popins flex px-28'>
                         J2EE Training in Chennai
                     </div>
 

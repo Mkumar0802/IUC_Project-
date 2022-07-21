@@ -82,7 +82,16 @@ export default function Navbar() {
                                                 <Link className={classNames(
                                                     active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
                                                     'block px-4 py-2 text-sm'
-                                                )} to="/acc">Mobile Application Training
+                                                )} to="/nettraining">.NetTraining
+                                                </Link>
+                                            )}
+                                        </Menu.Item>
+                                        <Menu.Item>
+                                            {({ active }) => (
+                                                <Link className={classNames(
+                                                    active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
+                                                    'block px-4 py-2 text-sm'
+                                                )} to="/andriodtraining">Mobile Application Training
                                                 </Link>
                                             )}
                                         </Menu.Item>
