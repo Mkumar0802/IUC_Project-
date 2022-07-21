@@ -22,6 +22,14 @@ import UNIX from './Pages/UNIX.js';
 import PerlTraining from './Pages/PerlTraining.js';
 import SEO from './Pages/SEO.js';
 import CTraining from './Pages/CTraining.js';
+import CMSApplication from './webpages/CMSApplication.js';
+import DomainHoisting from './webpages/DomainHoisting.js';
+import EcommerceApplication from './webpages/EcommerceApplication.js';
+import MobileApps from './webpages/MobileApps.js';
+import WebDesign from './webpages/WebDesign.js';
+import WebDevelopment from './webpages/WebDevelopment.js';
+import WebMaintaince from './webpages/WebMaintaince.js';
+import WebMarketing from './webpages/WebMarketing.js';
 
 
 
@@ -51,13 +59,21 @@ function App() {
           <Route path="php" element={<Php />} />
           <Route path="oracle" element={<Oracle />} />
           <Route path="nettraining" element={<NetTraining />} />
-          <Route path="andriodtraining" element={<AndroidTraining/>} />
+          <Route path="andriodtraining" element={<AndroidTraining />} />
           <Route path="iOStraining" element={<IOSTraining />} />
           <Route path="objectiveC" element={<ObjectiveC />} />
-          <Route path="ctraining" element={<CTraining/>} />
+          <Route path="ctraining" element={<CTraining />} />
           <Route path="unixshell" element={<UNIX />} />
-          <Route path="perl" element={<PerlTraining/>} />
+          <Route path="perl" element={<PerlTraining />} />
           <Route path="seo" element={<SEO />} />
+          <Route path="cmsapplication" element={<CMSApplication />} />
+          <Route path="domainhosting" element={<DomainHoisting />} />
+          <Route path="ecommerceapplication" element={<EcommerceApplication />} />
+          <Route path="mobileapps" element={<MobileApps />} />
+          <Route path="websitedesign" element={<WebDesign />} />
+          <Route path="webdevelopment" element={<WebDevelopment />} />
+          <Route path="webmaintenance" element={<WebMaintaince />} />
+          <Route path="webmarketing" element={<WebMarketing />} />
 
 
 

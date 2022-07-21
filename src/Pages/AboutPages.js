@@ -1,33 +1,24 @@
-import React from 'react'
-import office from './Assets/fqa1.png'
+import React,{useEffect} from 'react'
+import office from '../components/Assets/fqa1.png'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
-import { Link } from "react-router-dom";
-
-function About() {
+function AboutPage() {
+    useEffect(() => {
+        AOS.init({ duration: 1000 });
+      }, [])
     return (
         <div>
-            <div className='bg-gradient-to-r from-indigo-900 to-blue-500 text-white'>
-                <div className='relative  text-9xl'>
-
-                </div>
-                <div className='flex justify-center p-44 '>
-                    <div className=''>
-                        <h1 className='text-4xl font-semibold '><span className='text-white  text-6xl font-extrabold font-popins '>A</span>bout Us</h1>
-                        <div className='flex py-5 px-3'><button className=' rounded-full p-3  px-1 py-1 hover:bg-blue-700   flex  text-justify hover:ring-4 ring-white transition ease-in-out duration-100'> <Link to="/home">Home</Link></button> <span className='py-1 px-4'>-About Us</span></div>
-
-                    </div>
-
-                </div>
-            </div>
+            
 
 
             <div className='flex  font-popins '>
                 <div className='w-full h-4/6 lg:h-5/6 flex flex-col-reverse lg:flex-row justify-center'>
 
-                    <div className='pr-24 py-10 '>
+                    <div data-aos="fade-right" className='pr-24 py-10 '>
                         <img src={office} alt='pic' />
                     </div>
-                    <div className='w-2/6'>
+                    <div data-aos="fade-left" className='w-2/6'>
                         <ul>
                             <li className='text-slate-500 font-radio'>
                                 <h1 className='text-black  text-2xl font-popins font-semibold'>
@@ -126,4 +117,4 @@ function About() {
     )
 }
 
-export default About
+export default AboutPage;

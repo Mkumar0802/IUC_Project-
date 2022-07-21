@@ -211,7 +211,7 @@ export default function Navbar() {
                                                 <Link className={classNames(
                                                     active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
                                                     'block px-4 py-2 text-sm'
-                                                )} to="/acc"> Web Development
+                                                )} to="/webdevelopment"> Web Development
                                                 </Link>
 
                                             )}
@@ -221,7 +221,7 @@ export default function Navbar() {
                                                 <Link className={classNames(
                                                     active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
                                                     'block px-4 py-2 text-sm'
-                                                )} to="/acc"> Website Design
+                                                )} to="/websitedesign"> Website Design
                                                 </Link>
                                             )}
                                         </Menu.Item>
@@ -230,7 +230,7 @@ export default function Navbar() {
                                                 <Link className={classNames(
                                                     active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
                                                     'block px-4 py-2 text-sm'
-                                                )} to="/acc"> Web Maintenance
+                                                )} to="/webmaintenance"> Web Maintenance
                                                 </Link>
                                             )}
                                         </Menu.Item>
@@ -240,7 +240,7 @@ export default function Navbar() {
                                                 <Link className={classNames(
                                                     active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
                                                     'block px-4 py-2 text-sm'
-                                                )} to="/acc"> Web Marketing
+                                                )} to="/webmarketing"> Web Marketing
                                                 </Link>
                                             )}
                                         </Menu.Item>
@@ -249,7 +249,7 @@ export default function Navbar() {
                                                 <Link className={classNames(
                                                     active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
                                                     'block px-4 py-2 text-sm'
-                                                )} to="/acc">eCommerce Application
+                                                )} to="/ecommerceapplication">eCommerce Application
                                                 </Link>
                                             )}
                                         </Menu.Item>
@@ -258,7 +258,7 @@ export default function Navbar() {
                                                 <Link className={classNames(
                                                     active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
                                                     'block px-4 py-2 text-sm'
-                                                )} to="/acc"> CMS Application
+                                                )} to="/cmsapplication"> CMS Application
                                                 </Link>
                                             )}
                                         </Menu.Item>
@@ -267,7 +267,7 @@ export default function Navbar() {
                                                 <Link className={classNames(
                                                     active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
                                                     'block px-4 py-2 text-sm'
-                                                )} to="/acc"> Mobile Apps
+                                                )} to="/mobileapps"> Mobile Apps
                                                 </Link>
                                             )}
                                         </Menu.Item>
@@ -276,7 +276,7 @@ export default function Navbar() {
                                                 <Link className={classNames(
                                                     active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
                                                     'block px-4 py-2 text-sm'
-                                                )} to="/acc"> Domain & Hosting
+                                                )} to="/domainhosting"> Domain & Hosting
                                                 </Link>
                                             )}
                                         </Menu.Item>

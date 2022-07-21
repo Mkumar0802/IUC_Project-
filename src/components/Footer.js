@@ -10,8 +10,9 @@ function Footer() {
             <div className='flex justify-center'>
 
             </div>
-            <div className="    text-xs md:text-sm py-10 p-5 ">
-                <div className="flex grid-cols-6  space-x-10 md:space-x-36 justify-center   ">
+            <div data-aos="fade-up"
+                data-aos-anchor-placement="center-bottom" className="text-xs md:text-sm py-10 p-5">
+                <div className="flex grid-cols-6  space-x-10 md:space-x-36 justify-center">
 
                     <div className=' '>
                         <ul className="space-y-2 ">
@@ -19,32 +20,32 @@ function Footer() {
                                 <span className='text-indigo-900  text-3xl font-extrabold '>Q</span>uick Links
                             </h1>
                             <li className='hover:text-blue-300 hover:underline decoration-sky-500 flex'>
-                          <span className=''><ion-icon name="caret-forward-outline"></ion-icon></span>  
+                                <span className=''><ion-icon name="caret-forward-outline"></ion-icon></span>
                                 Home
 
                             </li>
                             <li className='hover:text-blue-300  hover:underline decoration-sky-500 '>
-                            <ion-icon name="caret-forward-outline"></ion-icon>
+                                <ion-icon name="caret-forward-outline"></ion-icon>
                                 About Us
                             </li>
                             <li className='hover:text-blue-300 hover:underline decoration-sky-500 '>
-                            <ion-icon name="caret-forward-outline"></ion-icon>
+                                <ion-icon name="caret-forward-outline"></ion-icon>
                                 Training Courses
                             </li>
                             <li className='hover:text-blue-300 hover:underline decoration-sky-500 '>
-                            <ion-icon name="caret-forward-outline"></ion-icon>
+                                <ion-icon name="caret-forward-outline"></ion-icon>
                                 Online Courses
                             </li>
                             <li className='hover:text-blue-300 hover:underline decoration-sky-500'>
-                            <ion-icon name="caret-forward-outline"></ion-icon>
+                                <ion-icon name="caret-forward-outline"></ion-icon>
                                 Reviews
                             </li>
                             <li className='hover:text-blue-300  hover:underline decoration-sky-500'>
-                            <ion-icon name="caret-forward-outline"></ion-icon>
+                                <ion-icon name="caret-forward-outline"></ion-icon>
                                 Careers
                             </li>
                             <li className='hover:text-blue-300  hover:underline decoration-sky-500'>
-                            <ion-icon name="caret-forward-outline"></ion-icon>
+                                <ion-icon name="caret-forward-outline"></ion-icon>
                                 Contact Us
                             </li>
 
