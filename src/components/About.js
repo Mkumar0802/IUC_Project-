@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 function About() {
     return (
         <div>
-            <div className='bg-gradient-to-r from-indigo-900 to-blue-500 text-white'>
+            <div className='bg-gradient-to-r from-indigo-900 to-blue-500 text-white '>
                 <div className='relative  text-9xl'>
 
                 </div>
