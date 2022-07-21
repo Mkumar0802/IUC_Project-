@@ -100,7 +100,7 @@ export default function Navbar() {
                                                 <Link className={classNames(
                                                     active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
                                                     'block px-4 py-2 text-sm'
-                                                )} to="/acc">Other Training
+                                                )} to="/CTraining">Other Training
                                                 </Link>
                                             )}
                                         </Menu.Item>
