@@ -18,6 +18,16 @@ module.exports = AnimateCss(
        popins:" 'Poppins', sans-serif;"
    
     },
+    extend: {
+
+      animation: {
+      
+        bounce:'bounce 3s  ease-in  infinite',
+        
+      }
+    },
+
+  
     variants: {},
    
   }

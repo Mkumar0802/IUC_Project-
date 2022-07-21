@@ -18,8 +18,8 @@ export default function Navbar() {
                 </div>
                 <div className='py-12  '>
                     <ul className='flex gap-8 px-8'>
-                        <li className='flex  hover:text-blue-300  focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500  '>Home    </li>
-                        <li className=' flex  hover:text-blue-300  focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500 '>About  </li>
+                        <li className='flex  hover:text-blue-300  focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500  '> <Link to="/home" >Home</Link></li>
+                        <li className=' flex  hover:text-blue-300  focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500 '><Link to="/about">About</Link></li>
                         <li ><Menu as="div" className="relative inline-block text-left">
                             <div className=''>
                                 <Menu.Button className="inline-flex justify-center w-full  hover:text-blue-300  bg-white text-sm font-medium text-gray-700  focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500">
@@ -44,7 +44,7 @@ export default function Navbar() {
                                                 <Link className={classNames(
                                                     active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
                                                     'block px-4 py-2 text-sm'
-                                                )} to="/acc"> JAVA Training
+                                                )} to="/java"> JAVA Training
                                                 </Link>
 
                                             )}
@@ -54,7 +54,7 @@ export default function Navbar() {
                                                 <Link className={classNames(
                                                     active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
                                                     'block px-4 py-2 text-sm'
-                                                )} to="/acc">Software Testing Training
+                                                )} to="/manualtesting">Software Testing Training
                                                 </Link>
                                             )}
                                         </Menu.Item>
@@ -63,7 +63,7 @@ export default function Navbar() {
                                                 <Link className={classNames(
                                                     active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
                                                     'block px-4 py-2 text-sm'
-                                                )} to="/acc">Web Designing Training
+                                                )} to="/htmltraining">Web Designing Training
                                                 </Link>
                                             )}
                                         </Menu.Item>
@@ -73,7 +73,7 @@ export default function Navbar() {
                                                 <Link className={classNames(
                                                     active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
                                                     'block px-4 py-2 text-sm'
-                                                )} to="/acc">Oracle Training
+                                                )} to="/oracle">Oracle Training
                                                 </Link>
                                             )}
                                         </Menu.Item>
@@ -340,7 +340,7 @@ export default function Navbar() {
                             </Transition>
                         </Menu></li>
                         <div className='relative'>
-                           <li className='inline-flex justify-center w-full  hover:text-blue-300  bg-white text-sm font-medium text-gray-700  focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500'><Link to='/contact'>Contact</Link>    </li>
+                            <li className='inline-flex justify-center w-full  hover:text-blue-300  bg-white text-sm font-medium text-gray-700  focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500'><Link to='/contact'>Contact</Link>    </li>
                         </div>
 
                     </ul>
