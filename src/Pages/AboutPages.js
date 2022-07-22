@@ -40,7 +40,7 @@ function AboutPage() {
 
             </div>
             <div className='mt-6'>
-                <div className='md:grid md:grid-cols-4 md:px-20 md:gap-4 grid  grid-cols-2 px-5 gap-5'>
+                <div className='md:grid md:grid-cols-3 md:px-40 md:gap-4 grid  grid-cols-2 px-5 gap-5'>
                     <div className=' bg-indigo-200 md:hover:bg-indigo-300  p-2 rounded-xl hover:shadow-xl  transition ease-in-out delay-75  md:hover:-translate-y-1 md:hover:scale-110 duration-100'>
                         <div className='md:hover:animate-flip'>
                             <div className='flex justify-center  text-indigo-900 '><svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10  " viewBox="0 0 20 20" fill="currentColor">

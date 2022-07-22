@@ -49,7 +49,7 @@ function About() {
 
             </div>
             <div className='mb-10'>
-                <div className='grid grid-cols-4 px-20 gap-4'>
+                <div className='grid grid-cols-3 md:px-40 gap-4'>
                     <div className=' bg-indigo-200 hover:bg-indigo-300  p-2 rounded-xl hover:shadow-xl  transition ease-in-out delay-75  hover:-translate-y-1 hover:scale-110 duration-100'>
                         <div className='hover:animate-flip'>
                             <div className='flex justify-center  text-indigo-900 '><svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10  " viewBox="0 0 20 20" fill="currentColor">

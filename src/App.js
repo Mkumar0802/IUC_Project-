@@ -32,6 +32,7 @@ import WebMaintaince from './webpages/WebMaintaince.js';
 import WebMarketing from './webpages/WebMarketing.js';
 import Navbar from './components/Navbar.js';
 import Footer from './components/Footer.js';
+import Services from './components/Services.js';
 
 
 
@@ -40,61 +41,62 @@ function App() {
   return (
     <>
       <Navbar />
-      
 
-        <Routes>
-          <Route index element={<Home />} />
-          {/* <Route path="dashboard" element={<Dashboard/>}/>
+
+      <Routes>
+        <Route index element={<Home />} />
+        {/* <Route path="dashboard" element={<Dashboard/>}/>
           <Route path="add" element={<Add />} />
           <Route path="edit" element={<Edit />} /> */}
-          <Route path="contact" element={<Contact />} />
-          <Route path="about" element={<About />} />
-          <Route path="home" element={<Home />} />
-          <Route path="java" element={<CoreJava />} />
-          <Route path="j2ee" element={<J2EE />} />
-          <Route path="manualtesting" element={<ManualTesting />} />
-          <Route path="selenium" element={<Selenium />} />
-          <Route path="soapui" element={<SoapUI />} />
-          <Route path="htmltraining" element={<HtmlTraining />} />
-          <Route path="js" element={<Javascript />} />
-          <Route path="jquery" element={<Jquery />} />
-          <Route path="css" element={<Css />} />
-          <Route path="php" element={<Php />} />
-          <Route path="oracle" element={<Oracle />} />
-          <Route path="nettraining" element={<NetTraining />} />
-          <Route path="andriodtraining" element={<AndroidTraining />} />
-          <Route path="iOStraining" element={<IOSTraining />} />
-          <Route path="objectiveC" element={<ObjectiveC />} />
-          <Route path="ctraining" element={<CTraining />} />
-          <Route path="unixshell" element={<UNIX />} />
-          <Route path="perl" element={<PerlTraining />} />
-          <Route path="seo" element={<SEO />} />
-          <Route path="cmsapplication" element={<CMSApplication />} />
-          <Route path="domainhosting" element={<DomainHoisting />} />
-          <Route path="ecommerceapplication" element={<EcommerceApplication />} />
-          <Route path="mobileapps" element={<MobileApps />} />
-          <Route path="websitedesign" element={<WebDesign />} />
-          <Route path="webdevelopment" element={<WebDevelopment />} />
-          <Route path="webmaintenance" element={<WebMaintaince />} />
-          <Route path="webmarketing" element={<WebMarketing />} />
+        <Route path="contact" element={<Contact />} />
+        <Route path="about" element={<About />} />
+        <Route path="home" element={<Home />} />
+        <Route path="java" element={<CoreJava />} />
+        <Route path="j2ee" element={<J2EE />} />
+        <Route path="manualtesting" element={<ManualTesting />} />
+        <Route path="selenium" element={<Selenium />} />
+        <Route path="soapui" element={<SoapUI />} />
+        <Route path="htmltraining" element={<HtmlTraining />} />
+        <Route path="js" element={<Javascript />} />
+        <Route path="jquery" element={<Jquery />} />
+        <Route path="css" element={<Css />} />
+        <Route path="php" element={<Php />} />
+        <Route path="oracle" element={<Oracle />} />
+        <Route path="nettraining" element={<NetTraining />} />
+        <Route path="andriodtraining" element={<AndroidTraining />} />
+        <Route path="iOStraining" element={<IOSTraining />} />
+        <Route path="objectiveC" element={<ObjectiveC />} />
+        <Route path="ctraining" element={<CTraining />} />
+        <Route path="unixshell" element={<UNIX />} />
+        <Route path="perl" element={<PerlTraining />} />
+        <Route path="seo" element={<SEO />} />
+        <Route path="cmsapplication" element={<CMSApplication />} />
+        <Route path="domainhosting" element={<DomainHoisting />} />
+        <Route path="ecommerceapplication" element={<EcommerceApplication />} />
+        <Route path="mobileapps" element={<MobileApps />} />
+        <Route path="websitedesign" element={<WebDesign />} />
+        <Route path="webdevelopment" element={<WebDevelopment />} />
+        <Route path="webmaintenance" element={<WebMaintaince />} />
+        <Route path="webmarketing" element={<WebMarketing />} />
+        <Route path="services" element={<Services />} />
 
 
 
 
 
 
-          <Route
-            path="*"
-            element={
-              <main style={{ padding: "1rem" }}>
-                <p>Page in Deveploment!</p>
-              </main>
-            }
-          />
+        <Route
+          path="*"
+          element={
+            <main style={{ padding: "1rem" }}>
+              <p>Page in Deveploment!</p>
+            </main>
+          }
+        />
 
-        </Routes>
+      </Routes>
 
-     
+
       <Footer />
     </>
   );

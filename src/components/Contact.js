@@ -11,7 +11,7 @@ function Contact() {
     return (
         <div className='flex  font-popins '>
             <div data-aos="fade-up">
-                <div className='w-full h-4/6 lg:h-5/6  flex flex-col lg:flex-row md:space-x-28 md:px-32 px-5'>
+                <div className='w-full h-4/6 lg:h-5/6  flex flex-col lg:flex-row md:space-x-28 md:px-40 px-5'>
 
 
                     <div className='md:w-2/6 mt-32 flex  '>
