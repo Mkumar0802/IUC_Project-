@@ -21,7 +21,7 @@ function About() {
             </div>
 
 
-            <div className='flex  font-popins '>
+            <div className='flex  font-popins  mt-10'>
                 <div className='w-full h-4/6 lg:h-5/6 flex flex-col-reverse lg:flex-row justify-center'>
 
                     <div className='pr-24 py-10 '>
@@ -48,7 +48,7 @@ function About() {
                 </div>
 
             </div>
-            <div className=''>
+            <div className='mb-10'>
                 <div className='grid grid-cols-4 px-20 gap-4'>
                     <div className=' bg-indigo-200 hover:bg-indigo-300  p-2 rounded-xl hover:shadow-xl  transition ease-in-out delay-75  hover:-translate-y-1 hover:scale-110 duration-100'>
                         <div className='hover:animate-flip'>

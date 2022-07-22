@@ -11,7 +11,7 @@ function classNames(...classes) {
 
 export default function Navbar() {
     return (
-        <div>
+        <div className=''>
             <div className='flex font-popins '>
                 <div>
                     <img className='object-scale-down  w-4/6 h-40' alt='logo' src={IUC} />

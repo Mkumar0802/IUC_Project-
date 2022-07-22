@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import Navbar from './Navbar'
+
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -10,7 +10,7 @@ function Main() {
   }, [])
   return (
     <>
-      <Navbar />
+      
       <div className='bg-sky-50'>
         <div className='md:px-40 px-5'>
           <h1 className='md:text-3xl text-xl font-popins py-10'>

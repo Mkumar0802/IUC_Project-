@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Home from './components/Home.js';
 import Contact from './components/Contact.js';
 import About from './components/About.js';
@@ -30,6 +30,8 @@ import WebDesign from './webpages/WebDesign.js';
 import WebDevelopment from './webpages/WebDevelopment.js';
 import WebMaintaince from './webpages/WebMaintaince.js';
 import WebMarketing from './webpages/WebMarketing.js';
+import Navbar from './components/Navbar.js';
+import Footer from './components/Footer.js';
 
 
 
@@ -37,7 +39,8 @@ import WebMarketing from './webpages/WebMarketing.js';
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <Navbar />
+      
 
         <Routes>
           <Route index element={<Home />} />
@@ -91,8 +94,8 @@ function App() {
 
         </Routes>
 
-      </BrowserRouter>
-
+     
+      <Footer />
     </>
   );
 }
