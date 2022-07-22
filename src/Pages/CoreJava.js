@@ -23,11 +23,9 @@ function CoreJava() {
             </div>
             <div>
                 <h1 className='text-2xl font-popins p-5 px-28 '>
-                    <span className='text-indigo-900  text-3xl font-extrabold '>C</span>ore Java Training
+                    <span className='text-indigo-900  text-3xl font-extrabold '>C</span>ore Java Training/Online
                 </h1>
-                <div className=' text-2xl font-semibold font-popins px-28'>
-                    Core Java Training in Chennai
-                </div>
+
 
                 <ul className='space-y-3 px-28 mt-4'>
                     <li className='text-slate-500 font-radio'> Java is a programming language and computing platform first released by Sun Microsystems in 1995. There are handful of applications and websites that will not work unless you have Java installed, and more are created every day – the reason being Java is fast, secure, and reliable. From laptops to datacenters, game consoles to scientific supercomputers, cell phones to the Internet, Java is in the virtual world – Ubiquitous.</li>
@@ -42,21 +40,21 @@ function CoreJava() {
                     <div className='px-28 grid grid-cols-2 w-2/3 text-slate-500 font-radio'>
                         <div>
                             <ul className='space-y-5 mb-5 mt-5 '>
-                                <li>Simple</li>
-                                <li>Object oriented</li>
-                                <li>Distributed</li>
-                                <li>Multithreaded</li>
-                                <li>Dynamic</li>
+                                <li className='hover:text-black  flex gap-1 hover:underline ' ><div className='text-indigo-900 text-base '><ion-icon name="caret-forward-outline"></ion-icon> </div>   Simple</li>
+                                <li className='hover:text-black  flex gap-1 hover:underline ' ><div className='text-indigo-900 text-base '><ion-icon name="caret-forward-outline"></ion-icon> </div> Object oriented</li>
+                                <li className='hover:text-black  flex gap-1 hover:underline ' ><div className='text-indigo-900 text-base '><ion-icon name="caret-forward-outline"></ion-icon> </div>  Distributed</li>
+                                <li className='hover:text-black  flex gap-1 hover:underline ' ><div className='text-indigo-900 text-base '><ion-icon name="caret-forward-outline"></ion-icon> </div>Multithreaded</li>
+                                <li className='hover:text-black  flex gap-1 hover:underline ' ><div className='text-indigo-900 text-base '><ion-icon name="caret-forward-outline"></ion-icon> </div>Dynamic</li>
                             </ul>
                         </div>
 
                         <div>
                             <ul className='space-y-5 mb-5 mt-5'>
-                                <li>Architecture neutral</li>
-                                <li>Portable</li>
-                                <li>High performance</li>
-                                <li>Robust</li>
-                                <li>Secure</li>
+                                <li className='hover:text-black  flex gap-1 hover:underline ' ><div className='text-indigo-900 text-base '><ion-icon name="caret-forward-outline"></ion-icon> </div>Architecture neutral</li>
+                                <li className='hover:text-black  flex gap-1 hover:underline ' ><div className='text-indigo-900 text-base '><ion-icon name="caret-forward-outline"></ion-icon> </div>Portable</li>
+                                <li className='hover:text-black  flex gap-1 hover:underline ' ><div className='text-indigo-900 text-base '><ion-icon name="caret-forward-outline"></ion-icon> </div>High performance</li>
+                                <li className='hover:text-black  flex gap-1 hover:underline ' ><div className='text-indigo-900 text-base '><ion-icon name="caret-forward-outline"></ion-icon> </div>Robust</li>
+                                <li className='hover:text-black  flex gap-1 hover:underline ' ><div className='text-indigo-900 text-base '><ion-icon name="caret-forward-outline"></ion-icon> </div>Secure</li>
                             </ul>
 
                         </div>
@@ -71,34 +69,34 @@ function CoreJava() {
                     <div className='px-28 grid grid-cols-2 w-2/3 text-slate-500 font-radio'>
                         <div >
                             <ul className='space-y-5 mb-5 mt-5  '>
-                                <li>Data types and operators</li>
-                                <li>Control statements</li>
-                                <li>Classes and objects</li>
-                                <li>Constructors and methods</li>
-                                <li>Interfaces and packages</li>
-                                <li>Method overloading and overriding</li>
-                                <li>Inheritance</li>
-                                <li>Exception handling</li>
-                                <li>Generics</li>
-                                <li>Enumerations</li>
-                                <li>Annotations</li>
+                                <li className='hover:text-black  flex gap-1 hover:underline ' ><div className='text-indigo-900 text-base '><ion-icon name="caret-forward-outline"></ion-icon> </div>Data types and operators</li>
+                                <li className='hover:text-black  flex gap-1 hover:underline ' ><div className='text-indigo-900 text-base '><ion-icon name="caret-forward-outline"></ion-icon> </div>Control statements</li>
+                                <li className='hover:text-black  flex gap-1 hover:underline ' ><div className='text-indigo-900 text-base '><ion-icon name="caret-forward-outline"></ion-icon> </div>Classes and objects</li>
+                                <li className='hover:text-black  flex gap-1 hover:underline ' ><div className='text-indigo-900 text-base '><ion-icon name="caret-forward-outline"></ion-icon> </div>Constructors and methods</li>
+                                <li className='hover:text-black  flex gap-1 hover:underline ' ><div className='text-indigo-900 text-base '><ion-icon name="caret-forward-outline"></ion-icon> </div>Interfaces and packages</li>
+                                <li className='hover:text-black  flex gap-1 hover:underline ' ><div className='text-indigo-900 text-base '><ion-icon name="caret-forward-outline"></ion-icon> </div>Method overloading and overriding</li>
+                                <li className='hover:text-black  flex gap-1 hover:underline ' ><div className='text-indigo-900 text-base '><ion-icon name="caret-forward-outline"></ion-icon> </div>Inheritance</li>
+                                <li className='hover:text-black  flex gap-1 hover:underline ' ><div className='text-indigo-900 text-base '><ion-icon name="caret-forward-outline"></ion-icon> </div>Exception handling</li>
+                                <li className='hover:text-black  flex gap-1 hover:underline ' ><div className='text-indigo-900 text-base '><ion-icon name="caret-forward-outline"></ion-icon> </div>Generics</li>
+                                <li className='hover:text-black  flex gap-1 hover:underline ' ><div className='text-indigo-900 text-base '><ion-icon name="caret-forward-outline"></ion-icon> </div>Enumerations</li>
+                                <li className='hover:text-black  flex gap-1 hover:underline ' ><div className='text-indigo-900 text-base '><ion-icon name="caret-forward-outline"></ion-icon> </div>Annotations</li>
 
                             </ul>
                         </div>
                         <div>
 
                             <ul className='space-y-5 mb-5 mt-5'>
-                                <li>The enhanced for loop</li>
-                                <li>Varargs (variable-length arguments)</li>
-                                <li>Multithreading</li>
-                                <li>The I/O classes</li>
-                                <li>Networking</li>
-                                <li>The Collections Framework</li>
-                                <li>Applets</li>
-                                <li>AWT and layout managers</li>
-                                <li>Swing</li>
-                                <li>The Concurrent API</li>
-                                <li>and Much, much more</li>
+                                <li className='hover:text-black  flex gap-1 hover:underline ' ><div className='text-indigo-900 text-base '><ion-icon name="caret-forward-outline"></ion-icon> </div>The enhanced for loop</li>
+                                <li className='hover:text-black  flex gap-1 hover:underline ' ><div className='text-indigo-900 text-base '><ion-icon name="caret-forward-outline"></ion-icon> </div>Varargs (variable-length arguments)</li>
+                                <li className='hover:text-black  flex gap-1 hover:underline ' ><div className='text-indigo-900 text-base '><ion-icon name="caret-forward-outline"></ion-icon> </div>Multithreading</li>
+                                <li className='hover:text-black  flex gap-1 hover:underline ' ><div className='text-indigo-900 text-base '><ion-icon name="caret-forward-outline"></ion-icon> </div>The I/O classes</li>
+                                <li className='hover:text-black  flex gap-1 hover:underline ' ><div className='text-indigo-900 text-base '><ion-icon name="caret-forward-outline"></ion-icon> </div>Networking</li>
+                                <li className='hover:text-black  flex gap-1 hover:underline ' ><div className='text-indigo-900 text-base '><ion-icon name="caret-forward-outline"></ion-icon> </div>The Collections Framework</li>
+                                <li className='hover:text-black  flex gap-1 hover:underline ' ><div className='text-indigo-900 text-base '><ion-icon name="caret-forward-outline"></ion-icon> </div>Applets</li>
+                                <li className='hover:text-black  flex gap-1 hover:underline ' ><div className='text-indigo-900 text-base '><ion-icon name="caret-forward-outline"></ion-icon> </div>AWT and layout managers</li>
+                                <li className='hover:text-black  flex gap-1 hover:underline ' ><div className='text-indigo-900 text-base '><ion-icon name="caret-forward-outline"></ion-icon> </div>Swing</li>
+                                <li className='hover:text-black  flex gap-1 hover:underline ' ><div className='text-indigo-900 text-base '><ion-icon name="caret-forward-outline"></ion-icon> </div>The Concurrent API</li>
+                                <li className='hover:text-black  flex gap-1 hover:underline ' ><div className='text-indigo-900 text-base '><ion-icon name="caret-forward-outline"></ion-icon> </div>and Much, much more</li>
                             </ul>
                         </div>
                     </div>

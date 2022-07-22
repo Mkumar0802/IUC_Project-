@@ -285,8 +285,8 @@ export default function Navbar() {
                                 </Menu.Items>
                             </Transition>
                         </Menu></li>
-                        <li className=' inline-flex justify-center w-full  hover:text-blue-300  bg-white text-sm font-medium text-gray-700  focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500'><Link to="/services">Reviews</Link></li>
-                        <li> <Menu as="div" className="relative inline-block text-left"> 
+                        <li className=' inline-flex justify-center w-full  hover:text-blue-300  bg-white text-sm font-medium text-gray-700  focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500'>Reviews</li>
+                        <li> <Menu as="div" className="relative inline-block text-left">
                             <div>
                                 <Menu.Button className="inline-flex justify-center w-full  hover:text-blue-300  bg-white text-sm font-medium text-gray-700  focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500">
                                     Careers
@@ -321,25 +321,6 @@ export default function Navbar() {
                                                     active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
                                                     'block px-4 py-2 text-sm'
                                                 )} to="/acc"> Intership
-                                                </Link>
-                                            )}
-                                        </Menu.Item>
-                                        <Menu.Item>
-                                            {({ active }) => (
-                                                <Link className={classNames(
-                                                    active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
-                                                    'block px-4 py-2 text-sm'
-                                                )} to="/acc"> Account settings
-                                                </Link>
-                                            )}
-                                        </Menu.Item>
-
-                                        <Menu.Item>
-                                            {({ active }) => (
-                                                <Link className={classNames(
-                                                    active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
-                                                    'block px-4 py-2 text-sm'
-                                                )} to="/acc"> Account settings
                                                 </Link>
                                             )}
                                         </Menu.Item>

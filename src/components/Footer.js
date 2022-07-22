@@ -1,13 +1,13 @@
-import React, { useEffect } from 'react'
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import React from 'react'
+// import AOS from 'aos';
+// import 'aos/dist/aos.css';
 
 
 
 function Footer() {
-    useEffect(() => {
-        AOS.init({ duration: 1000 });
-    }, [])
+    // useEffect(() => {
+    //     AOS.init({ duration: 1000 });
+    // }, [])
     return (
         <div><div class=" bg-sky-50 py-4 text-xs md:text-sm">
             <div class="w-full border-t-2 border-blue-900"></div>
@@ -17,7 +17,7 @@ function Footer() {
                 <div className='flex justify-center'>
 
                 </div>
-                <div data-aos="fade-right"
+                <div
                     className="text-xs md:text-sm py-10 p-5">
                     <div className="flex grid-cols-6  space-x-10 md:space-x-36 justify-center">
 

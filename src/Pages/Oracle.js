@@ -25,15 +25,15 @@ function Oracle() {
             </div>
 
             <div>
-                <h1 className='text-2xl font-popins p-5  opacity-75 px-28'>
+                <h1 className='text-2xl font-popins p-5  px-28'>
                     <span className='text-indigo-900  text-3xl font-extrabold '>O</span>racle Training/Online
                 </h1>
 
             </div>
             <div className='flex justify-start'>
                 <div className='px-28'>
-                    <div className='text-2xl font-popins mt-5  opacity-75 '>
-                        <span className='text-indigo-900  text-3xl font-extrabold '>O</span>racle Training Syllabus
+                    <div className='text-2xl font-popins mt-5   '>
+                        <span className='text-indigo-900  text-3xl font-extrabold opacity-75'>O</span>racle Training Syllabus
                     </div>
                     <ul className='space-y-5 mb-5 mt-5  font-radio text-slate-500'>
                         <li className='mt-10 text-xl font-semibold font-popins  text-black'>Introduction </li>

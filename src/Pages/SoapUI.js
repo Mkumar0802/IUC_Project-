@@ -23,8 +23,8 @@ function SoapUI() {
                 </div>
             </div>
             <div>
-                <h1 className='text-2xl font-popins p-5  opacity-75 px-28'>
-                    <span className='text-indigo-900  text-3xl font-extrabold '>S</span>oapUI Training
+                <h1 className='text-2xl font-popins p-5   px-28'>
+                    <span className='text-indigo-900  text-3xl font-extrabold opacity-75'>S</span>oapUI Training
                 </h1>
                 <ul className='space-y-3 px-28 mt-4'>
                     <li className='text-slate-500 font-radio'>SoapUI is one of the most widely used Web API (Application Programming Interface) testing tools. Using SoapUI, you can perform functional testing and automatic scenario-based testing. It also supports security testing and service simulation. LoadUI is an integrated component of SoapUI that is used to perform load testing.</li>

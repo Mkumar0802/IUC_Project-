@@ -41,7 +41,7 @@ function UNIX() {
             <div className='flex justify-start'>
                 <div className='px-28'>
                     <div className='text-2xl font-popins mt-5  opacity-75 '>
-                        <span className='text-indigo-900  text-3xl font-extrabold '>Unix Training</span> Course content
+                        <span className='text-indigo-900  text-3xl font-extrabold opacity-75'>Unix Training</span> Course content
                     </div>
                     <ul className='space-y-5 mb-5 mt-5  font-radio text-slate-500'>
 

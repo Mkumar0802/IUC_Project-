@@ -4,37 +4,37 @@ import { Link } from "react-router-dom";
 function ManualTesting() {
     return (
         <div className='bg-sky-50'>
-             <div className='bg-gradient-to-r from-indigo-900 to-blue-500 text-white'>
+            <div className='bg-gradient-to-r from-indigo-900 to-blue-500 text-white'>
                 <div className='relative  text-9xl'>
 
                 </div>
                 <div className='flex justify-center p-44 '>
                     <div className=''>
                         <h1 className='text-4xl font-semibold '><span className='text-white  text-6xl font-extrabold font-popins '>S</span>oftware Testing Training</h1>
-                       
-                       <ul className='flex'>
-                        <li className='flex py-5 px-3'><button className=' rounded-full p-3  px-1 py-1 hover:bg-blue-700   flex  text-justify hover:ring-4 ring-white transition ease-in-out duration-100'><Link to="/home">Home</Link></button></li>
-                        <li className='flex py-5 px-3 cursor-not-allowed'><button className=' rounded-full p-3  px-1 py-1 hover:bg-blue-700   flex  text-justify hover:ring-4  cursor-not-allowed  '>Manual Testing</button></li>
-                        <li className='flex py-5 px-3'><button className=' rounded-full p-3  px-1 py-1 hover:bg-blue-700   flex  text-justify ring-4 ring-white transition ease-in-out duration-100'><Link to="/selenium">SELENIUM® Testing</Link></button></li>
-                        <li className='flex py-5 px-3'><button className=' rounded-full p-3  px-1 py-1 hover:bg-blue-700   flex  text-justify ring-4 ring-white transition ease-in-out duration-100'><Link to="/soapui">SoapUI Training</Link></button></li>
-                       </ul>
+
+                        <ul className='flex'>
+                            <li className='flex py-5 px-3'><button className=' rounded-full p-3  px-1 py-1 hover:bg-blue-700   flex  text-justify hover:ring-4 ring-white transition ease-in-out duration-100'><Link to="/home">Home</Link></button></li>
+                            <li className='flex py-5 px-3 cursor-not-allowed'><button className=' rounded-full p-3  px-1 py-1 hover:bg-blue-700   flex  text-justify hover:ring-4  cursor-not-allowed  '>Manual Testing</button></li>
+                            <li className='flex py-5 px-3'><button className=' rounded-full p-3  px-1 py-1 hover:bg-blue-700   flex  text-justify ring-4 ring-white transition ease-in-out duration-100'><Link to="/selenium">SELENIUM® Testing</Link></button></li>
+                            <li className='flex py-5 px-3'><button className=' rounded-full p-3  px-1 py-1 hover:bg-blue-700   flex  text-justify ring-4 ring-white transition ease-in-out duration-100'><Link to="/soapui">SoapUI Training</Link></button></li>
+                        </ul>
                     </div>
 
                 </div>
             </div>
 
             <div>
-                <h1 className='text-2xl font-popins p-5  opacity-75'>
-                    <span className='text-indigo-900  text-3xl font-extrabold '>M</span>anual Testing Training/Online Training
+                <h1 className='text-2xl font-popins p-5  px-28  '>
+                    <span className='text-indigo-900  text-3xl font-extrabold opacity-75'>M</span>anual Testing Training/Online Training
                 </h1>
-                <div className='px-5 text-2xl font-semibold font-popins flex justify-center'>
+                <div className=' px-28  text-2xl font-semibold font-popins flex '>
                     Manual Testing Training Syllabus
                 </div>
 
 
 
                 <div>
-                    <div className='flex justify-center'>
+                    <div className='flex  px-28 '>
                         <div className=' grid grid-cols-2  '>
                             <div>
                                 <ul className='space-y-5 mb-5 mt-5  font-radio text-slate-500'>
@@ -63,7 +63,7 @@ function ManualTesting() {
 
 
 
-                <div className='flex justify-center'>
+                <div className='flex  px-28 '>
                     <div className=' grid grid-cols-2 '>
                         <div>
                             <ul className='space-y-5 mb-5 mt-5  font-radio text-slate-500'>
@@ -111,18 +111,6 @@ function ManualTesting() {
                             </ul>
 
                         </div>
-                    </div>
-                </div>
-
-
-
-
-
-
-
-                <div className='flex justify-center'>
-                    <div className=' grid grid-cols-4  '>
-
                     </div>
                 </div>
             </div>

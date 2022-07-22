@@ -1,6 +1,13 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 function Services() {
+    useEffect(() => {
+        AOS.init({ duration: 2000 });
+    }, [])
+
     return (
         <div>
             <div className='flex justify-center mt-24 mb-10 '>
@@ -8,7 +15,7 @@ function Services() {
             </div>
             <div className='md:grid md:grid-cols-3 grid-flow-row md:px-40  md:mt-10'>
 
-                <div className='p-4 max-w-sm bg-white rounded-lg border  sm:p-8  md:hover:bg-indigo-300  px-10 py-10 hover:shadow-xl transition ease-in-out delay-75  md:hover:-translate-y-1 md:hover:scale-110 duration-100  shadow-xl  '>
+                <div data-aos="flip-left" className='p-4 max-w-sm bg-white rounded-lg border  sm:p-8  md:hover:bg-indigo-300  px-10 py-10 hover:shadow-xl transition ease-in-out delay-75  md:hover:-translate-y-1 md:hover:scale-110 duration-100  shadow-xl  '>
                     <div className='text-center'>
                         <h1 className='md:text-2xl font-popins underline p-2 py-6'>Graduate and professional Zone</h1>
                     </div>
@@ -32,7 +39,7 @@ function Services() {
                         </ul>
                     </div>
                 </div>
-                <div className='p-4 max-w-sm bg-white rounded-lg border  sm:p-8  md:hover:bg-indigo-300  px-10 py-10 hover:shadow-xl transition ease-in-out delay-75  md:hover:-translate-y-1 md:hover:scale-110 duration-100  shadow-xl'>
+                <div data-aos="flip-up" className='p-4 max-w-sm bg-white rounded-lg border  sm:p-8  md:hover:bg-indigo-300  px-10 py-10 hover:shadow-xl transition ease-in-out delay-75  md:hover:-translate-y-1 md:hover:scale-110 duration-100  shadow-xl'>
                     <div className='text-center'>
                         <h1 className='md:text-2xl font-popins underline p-2 py-6'>School Zone</h1>
                     </div>
@@ -57,7 +64,7 @@ function Services() {
                     </div>
 
                 </div>
-                <div className='p-4 max-w-sm bg-white rounded-lg border  sm:p-8  md:hover:bg-indigo-300  px-10 py-10 hover:shadow-xl transition ease-in-out delay-75  md:hover:-translate-y-1 md:hover:scale-110 duration-100  shadow-xl'>
+                <div data-aos="flip-right" className='p-4 max-w-sm bg-white rounded-lg border  sm:p-8  md:hover:bg-indigo-300  px-10 py-10 hover:shadow-xl transition ease-in-out delay-75  md:hover:-translate-y-1 md:hover:scale-110 duration-100  shadow-xl'>
                     <div className='text-center'>
                         <h1 className='md:text-2xl font-popins underline p-2 py-6'>Business Solutions</h1>
                     </div>

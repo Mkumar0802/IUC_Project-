@@ -25,15 +25,15 @@ function Javascript() {
                 </div>
             </div>
             <div>
-                <h1 className='text-2xl font-popins p-5  opacity-75 px-28'>
-                    <span className='text-indigo-900  text-3xl font-extrabold '>J</span>avascript Training/Online
+                <h1 className='text-2xl font-popins p-5   px-28'>
+                    <span className='text-indigo-900  text-3xl font-extrabold opacity-75'>J</span>avascript Training/Online
                 </h1>
 
             </div>
             <div className='flex justify-start'>
                 <div className='px-28'>
-                    <div className='text-2xl font-popins mt-5  opacity-75 '>
-                        <span className='text-indigo-900  text-3xl font-extrabold '>J</span>avascript Training Course content
+                    <div className='text-2xl font-popins mt-5 '>
+                        <span className='text-indigo-900  text-3xl font-extrabold opacity-75'>J</span>avascript Training Course content
                     </div>
                     <ul className='space-y-5 mb-5 mt-5  font-radio text-slate-500'>
                         <li className='mt-10 text-xl font-semibold font-popins  text-black'>Introduction to Javascript</li>
@@ -55,16 +55,16 @@ function Javascript() {
                         <li className='hover:text-black  flex gap-1 hover:underline ' ><div className='text-indigo-900 text-base'><ion-icon name="caret-forward-outline"></ion-icon> </div>Comparison</li>
                         <li className='hover:text-black  flex gap-1 hover:underline ' ><div className='text-indigo-900 text-base'><ion-icon name="caret-forward-outline"></ion-icon> </div>Logical</li>
 
-                        <li className='text-black font-popin'>Document object model</li>
+                        <li className='text-xl font-semibold font-popins  text-black'>Document object model</li>
                         <li className='hover:text-black hover:underline  flex gap-1' ><div className='text-indigo-900 text-base'><ion-icon name="caret-forward-outline"></ion-icon> </div>Functions and types</li>
                         <li className='hover:text-black hover:underline  flex gap-1' ><div className='text-indigo-900 text-base'><ion-icon name="caret-forward-outline"></ion-icon> </div>Conversion functions</li>
-                        <li className='text-black font-popin'>Conditional statements</li>
+                        <li className='text-xl font-semibold font-popins  text-black'>Conditional statements</li>
                         <li className='hover:text-black hover:underline  flex gap-1' ><div className='text-indigo-900 text-base'><ion-icon name="caret-forward-outline"></ion-icon> </div>if</li>
                         <li className='hover:text-black hover:underline  flex gap-1' ><div className='text-indigo-900 text-base'><ion-icon name="caret-forward-outline"></ion-icon> </div>if…else</li>
                         <li className='hover:text-black hover:underline  flex gap-1' ><div className='text-indigo-900 text-base'><ion-icon name="caret-forward-outline"></ion-icon> </div>if…else if…else</li>
                         <li className='hover:text-black hover:underline  flex gap-1' ><div className='text-indigo-900 text-base'><ion-icon name="caret-forward-outline"></ion-icon> </div>Switch</li>
 
-                        <li className='text-black font-popin'>Loops</li>
+                        <li className='text-xl font-semibold font-popins  text-black'>Loops</li>
                         <li className='hover:text-black hover:underline  flex gap-1' ><div className='text-indigo-900 text-base'><ion-icon name="caret-forward-outline"></ion-icon> </div>while</li>
                         <li className='hover:text-black hover:underline  flex gap-1' ><div className='text-indigo-900 text-base'><ion-icon name="caret-forward-outline"></ion-icon> </div>do…while</li>
                         <li className='hover:text-black hover:underline  flex gap-1' ><div className='text-indigo-900 text-base'><ion-icon name="caret-forward-outline"></ion-icon> </div>for</li>
@@ -72,10 +72,10 @@ function Javascript() {
                         <li className='hover:text-black hover:underline  flex gap-1' ><div className='text-indigo-900 text-base'><ion-icon name="caret-forward-outline"></ion-icon> </div>Break</li>
                         <li className='hover:text-black hover:underline  flex gap-1' ><div className='text-indigo-900 text-base'><ion-icon name="caret-forward-outline"></ion-icon> </div>Continue</li>
 
-                        <li className='text-black font-popin'>Window object Document object Arrays</li>
+                        <li className='text-xl font-semibold font-popins  text-black'>Window object Document object Arrays</li>
                         <li className='hover:text-black hover:underline  flex gap-1' ><div className='text-indigo-900 text-base'><ion-icon name="caret-forward-outline"></ion-icon> </div>Associative Arrays</li>
                         <li className='hover:text-black hover:underline  flex gap-1' ><div className='text-indigo-900 text-base'><ion-icon name="caret-forward-outline"></ion-icon> </div>Array Properties and Methods</li>
-                        <li className='text-black font-popin'>Advanced JavaScript</li>
+                        <li className='text-xl font-semibold font-popins  text-black'>Advanced JavaScript</li>
                         <li className='hover:text-black hover:underline  flex gap-1' ><div className='text-indigo-900 text-base'><ion-icon name="caret-forward-outline"></ion-icon> </div>Date object</li>
                         <li className='hover:text-black hover:underline  flex gap-1' ><div className='text-indigo-900 text-base'><ion-icon name="caret-forward-outline"></ion-icon> </div>This object</li>
                         <li className='hover:text-black hover:underline  flex gap-1' ><div className='text-indigo-900 text-base'><ion-icon name="caret-forward-outline"></ion-icon> </div>State management</li>

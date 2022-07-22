@@ -69,40 +69,40 @@ function CTraining() {
                                 <li className='hover:text-black hover:underline  flex gap-1' ><div className='text-indigo-900 text-base'><ion-icon name="caret-forward-outline"></ion-icon> </div>Building an Executable Version of a C Program </li>
                                 <li className='hover:text-black hover:underline  flex gap-1' ><div className='text-indigo-900 text-base'><ion-icon name="caret-forward-outline"></ion-icon> </div>Debugging a C Program </li>
                                 <li className='hover:text-black hover:underline  flex gap-1' ><div className='text-indigo-900 text-base '><ion-icon name="caret-forward-outline"></ion-icon> </div>Examining and Running a C Application Program</li>
-                                <li className='text-black font-popins'>Data Types and Variables</li>
+                                <li className='text-xl font-semibold font-popins  text-black'>Data Types and Variables</li>
                                 <li className='hover:text-black hover:underline  flex gap-1' ><div className='text-indigo-900 text-base'><ion-icon name="caret-forward-outline"></ion-icon> </div>Data Types</li>
                                 <li className='hover:text-black hover:underline  flex gap-1' ><div className='text-indigo-900 text-base'><ion-icon name="caret-forward-outline"></ion-icon> </div>Operands, Operators, and Arithmetic Expressions</li>
 
-                                <li className='text-black font-popins'>Input/Output Management</li>
+                                <li className='text-xl font-semibold font-popins  text-black'>Input/Output Management</li>
                                 <li className='hover:text-black hover:underline  flex gap-1' ><div className='text-indigo-900 text-base'><ion-icon name="caret-forward-outline"></ion-icon> </div>Data Types</li>
                                 <li className='hover:text-black hover:underline  flex gap-1' ><div className='text-indigo-900 text-base'><ion-icon name="caret-forward-outline"></ion-icon> </div>Operands, Operators, and Arithmetic Expressions</li>
 
 
-                                <li className='text-black font-popins'>Control-Flow Statements</li>
+                                <li className='text-xl font-semibold font-popins  text-black'>Control-Flow Statements</li>
                                 <li className='hover:text-black hover:underline  flex gap-1' ><div className='text-indigo-900 text-base'><ion-icon name="caret-forward-outline"></ion-icon> </div>The Control-Flow Program Statements</li>
                                 <li className='hover:text-black hover:underline  flex gap-1' ><div className='text-indigo-900 text-base'><ion-icon name="caret-forward-outline"></ion-icon> </div>Looping Statements</li>
                                 <li className='hover:text-black hover:underline  flex gap-1' ><div className='text-indigo-900 text-base'><ion-icon name="caret-forward-outline"></ion-icon> </div>The Data-checking process</li>
 
-                                <li className='text-black font-popins'>Modular Programming with Functions</li>
+                                <li className='text-xl font-semibold font-popins  text-black'>Modular Programming with Functions</li>
                                 <li className='hover:text-black hover:underline  flex gap-1' ><div className='text-indigo-900 text-base'><ion-icon name="caret-forward-outline"></ion-icon> </div>The C Function</li>
                                 <li className='hover:text-black hover:underline  flex gap-1' ><div className='text-indigo-900 text-base'><ion-icon name="caret-forward-outline"></ion-icon> </div>Passing Data to Functions</li>
                                 <li className='hover:text-black hover:underline  flex gap-1' ><div className='text-indigo-900 text-base'><ion-icon name="caret-forward-outline"></ion-icon> </div>Passing an Address to Modify a Value in Memory</li>
                                 <li className='hover:text-black hover:underline  flex gap-1' ><div className='text-indigo-900 text-base'><ion-icon name="caret-forward-outline"></ion-icon> </div>Using Functions in the Checkbook Program</li>
                                 <li className='hover:text-black hover:underline  flex gap-1' ><div className='text-indigo-900 text-base'><ion-icon name="caret-forward-outline"></ion-icon> </div>C Standard Library Functions</li>
 
-                                <li className='text-black font-popins'>Arrays, Pointers, and Strings</li>
+                                <li className='text-xl font-semibold font-popins  text-black'>Arrays, Pointers, and Strings</li>
                                 <li className='hover:text-black hover:underline  flex gap-1' ><div className='text-indigo-900 text-base'><ion-icon name="caret-forward-outline"></ion-icon> </div>Arrays , Pointers , Strings</li>
                                 <li className='hover:text-black hover:underline  flex gap-1' ><div className='text-indigo-900 text-base'><ion-icon name="caret-forward-outline"></ion-icon> </div>Using Arrays, Strings, and Pointers in the Checkbook Program</li>
 
 
-                                <li className='text-black font-popins'>Structures</li>
+                                <li className='text-xl font-semibold font-popins  text-black'>Structures</li>
                                 <li className='hover:text-black hover:underline  flex gap-1' ><div className='text-indigo-900 text-base'><ion-icon name="caret-forward-outline"></ion-icon> </div>Structures</li>
                                 <li className='hover:text-black hover:underline  flex gap-1' ><div className='text-indigo-900 text-base'><ion-icon name="caret-forward-outline"></ion-icon> </div>Arrays of Structures</li>
                                 <li className='hover:text-black hover:underline  flex gap-1' ><div className='text-indigo-900 text-base'><ion-icon name="caret-forward-outline"></ion-icon> </div>Passing Structures to Functions</li>
                                 <li className='hover:text-black hover:underline  flex gap-1' ><div className='text-indigo-900 text-base'><ion-icon name="caret-forward-outline"></ion-icon> </div>Nesting Structures</li>
 
 
-                                <li className='text-black font-popins'>File Input/Output</li>
+                                <li className='text-xl font-semibold font-popins  text-black'>File Input/Output</li>
                                 <li className='hover:text-black hover:underline  flex gap-1' ><div className='text-indigo-900 text-base'><ion-icon name="caret-forward-outline"></ion-icon> </div>Command-line Arguments</li>
                                 <li className='hover:text-black hover:underline  flex gap-1' ><div className='text-indigo-900 text-base'><ion-icon name="caret-forward-outline"></ion-icon> </div>Combining Command-line</li>
 
@@ -117,28 +117,28 @@ function CTraining() {
                                 <li className='hover:text-black hover:underline  flex gap-1' ><div className='text-indigo-900 text-base'><ion-icon name="caret-forward-outline"></ion-icon> </div>Creating a project</li>
                                 <li className='hover:text-black hover:underline  flex gap-1' ><div className='text-indigo-900 text-base'><ion-icon name="caret-forward-outline"></ion-icon> </div>Writing, compiling and running a program </li>
 
-                                <li className='text-black font-popins'>Variables and data types</li>
+                                <li className='text-xl font-semibold font-popins  text-black'>Variables and data types</li>
                                 <li className='hover:text-black hover:underline  flex gap-1' ><div className='text-indigo-900 text-base'><ion-icon name="caret-forward-outline"></ion-icon> </div>Expressions</li>
                                 <li className='hover:text-black hover:underline  flex gap-1' ><div className='text-indigo-900 text-base'><ion-icon name="caret-forward-outline"></ion-icon> </div>Constants</li>
                                 <li className='hover:text-black hover:underline  flex gap-1' ><div className='text-indigo-900 text-base'><ion-icon name="caret-forward-outline"></ion-icon> </div>Operators</li>
                                 <li className='hover:text-black hover:underline  flex gap-1' ><div className='text-indigo-900 text-base'><ion-icon name="caret-forward-outline"></ion-icon> </div>Type conversions</li>
 
-                                <li className='text-black font-popins'>Looping constructs: while, do…while, for loops</li>
+                                <li className='text-xl font-semibold font-popins  text-black'>Looping constructs: while, do…while, for loops</li>
                                 <li className='hover:text-black hover:underline  flex gap-1' ><div className='text-indigo-900 text-base'><ion-icon name="caret-forward-outline"></ion-icon> </div>If…else statements</li>
                                 <li className='hover:text-black hover:underline  flex gap-1' ><div className='text-indigo-900 text-base'><ion-icon name="caret-forward-outline"></ion-icon> </div>Switch/case construct</li>
 
 
-                                <li className='text-black font-popins'>Arrays</li>
+                                <li className='text-xl font-semibold font-popins  text-black'>Arrays</li>
                                 <li className='hover:text-black hover:underline  flex gap-1' ><div className='text-indigo-900 text-base'><ion-icon name="caret-forward-outline"></ion-icon> </div>Array initialisation</li>
                                 <li className='hover:text-black hover:underline  flex gap-1' ><div className='text-indigo-900 text-base'><ion-icon name="caret-forward-outline"></ion-icon> </div>Multi-dimensional arrays</li>
                                 <li className='hover:text-black hover:underline  flex gap-1' ><div className='text-indigo-900 text-base'><ion-icon name="caret-forward-outline"></ion-icon> </div>Character arrays</li>
                                 <li className='hover:text-black hover:underline  flex gap-1' ><div className='text-indigo-900 text-base'><ion-icon name="caret-forward-outline"></ion-icon> </div>Working with character strings</li>
 
-                                <li className='text-black font-popins'>Storage Classes</li>
+                                <li className='text-xl font-semibold font-popins  text-black'>Storage Classes</li>
                                 <li className='hover:text-black hover:underline  flex gap-1' ><div className='text-indigo-900 text-base'><ion-icon name="caret-forward-outline"></ion-icon> </div>Global variables</li>
 
 
-                                <li className='text-black font-popins'>Pointers</li>
+                                <li className='text-xl font-semibold font-popins  text-black'>Pointers</li>
                                 <li className='hover:text-black hover:underline  flex gap-1' ><div className='text-indigo-900 text-base'><ion-icon name="caret-forward-outline"></ion-icon> </div>Pointers</li>
                                 <li className='hover:text-black hover:underline  flex gap-1' ><div className='text-indigo-900 text-base'><ion-icon name="caret-forward-outline"></ion-icon> </div>Pointer and arrays</li>
                                 <li className='hover:text-black hover:underline  flex gap-1' ><div className='text-indigo-900 text-base'><ion-icon name="caret-forward-outline"></ion-icon> </div>Pointers to character strings</li>
@@ -147,7 +147,7 @@ function CTraining() {
                                 <li className='hover:text-black hover:underline  flex gap-1' ><div className='text-indigo-900 text-base'><ion-icon name="caret-forward-outline"></ion-icon> </div>Pointers to functions</li>
 
 
-                                <li className='text-black font-popins'>C++ classes</li>
+                                <li className='text-xl font-semibold font-popins  text-black'>C++ classes</li>
                                 <li className='hover:text-black hover:underline  flex gap-1' ><div className='text-indigo-900 text-base'><ion-icon name="caret-forward-outline"></ion-icon> </div>Data members and member functions</li>
                                 <li className='hover:text-black hover:underline  flex gap-1' ><div className='text-indigo-900 text-base'><ion-icon name="caret-forward-outline"></ion-icon> </div>Creating objects</li>
                                 <li className='hover:text-black hover:underline  flex gap-1' ><div className='text-indigo-900 text-base'><ion-icon name="caret-forward-outline"></ion-icon> </div>The new and delete operators</li>
@@ -155,23 +155,23 @@ function CTraining() {
                                 <li className='hover:text-black hover:underline  flex gap-1' ><div className='text-indigo-900 text-base'><ion-icon name="caret-forward-outline"></ion-icon> </div>Class initialisation</li>
 
 
-                                <li className='text-black font-popins'>Reference types</li>
+                                <li className='text-xl font-semibold font-popins  text-black'>Reference types</li>
                                 <li className='hover:text-black hover:underline  flex gap-1' ><div className='text-indigo-900 text-base'><ion-icon name="caret-forward-outline"></ion-icon> </div>Reference type arguments</li>
-                                <li className='text-black font-popins'>Function overloading</li>
+                                <li className='text-xl font-semibold font-popins  text-black'>Function overloading</li>
                                 <li className='hover:text-black hover:underline  flex gap-1' ><div className='text-indigo-900 text-base'><ion-icon name="caret-forward-outline"></ion-icon> </div>Operator overloading</li>
-                                <li className='text-black font-popins'>Copy constructor</li>
+                                <li className='text-xl font-semibold font-popins  text-black'>Copy constructor</li>
                                 <li className='hover:text-black hover:underline  flex gap-1' ><div className='text-indigo-900 text-base'><ion-icon name="caret-forward-outline"></ion-icon> </div>Assignment operator</li>
-                                <li className='text-black font-popins'>Template classes</li>
+                                <li className='text-xl font-semibold font-popins  text-black'>Template classes</li>
                                 <li className='hover:text-black hover:underline  flex gap-1' ><div className='text-indigo-900 text-base'><ion-icon name="caret-forward-outline"></ion-icon> </div>Static class members</li>
                                 <li className='hover:text-black hover:underline  flex gap-1' ><div className='text-indigo-900 text-base'><ion-icon name="caret-forward-outline"></ion-icon> </div>File streams</li>
-                                <li className='text-black font-popins'>Inheritance</li>
+                                <li className='text-xl font-semibold font-popins  text-black'>Inheritance</li>
                                 <li className='hover:text-black hover:underline  flex gap-1' ><div className='text-indigo-900 text-base'><ion-icon name="caret-forward-outline"></ion-icon> </div>Base classes and derived classes</li>
                                 <li className='hover:text-black hover:underline  flex gap-1' ><div className='text-indigo-900 text-base'><ion-icon name="caret-forward-outline"></ion-icon> </div>Inherited member access</li>
                                 <li className='hover:text-black hover:underline  flex gap-1' ><div className='text-indigo-900 text-base'><ion-icon name="caret-forward-outline"></ion-icon> </div>Base class initialisation</li>
                                 <li className='hover:text-black hover:underline  flex gap-1' ><div className='text-indigo-900 text-base'><ion-icon name="caret-forward-outline"></ion-icon> </div>Protected members of a class</li>
-                                <li className='text-black font-popins'>Virtual functions</li>
+                                <li className='text-xl font-semibold font-popins  text-black'>Virtual functions</li>
                                 <li className='hover:text-black hover:underline  flex gap-1' ><div className='text-indigo-900 text-base'><ion-icon name="caret-forward-outline"></ion-icon> </div>Virtual destructors</li>
-                                <li className='text-black font-popins'>Exception handling</li>
+                                <li className='text-xl font-semibold font-popins  text-black'>Exception handling</li>
                                 <li className='hover:text-black hover:underline  flex gap-1' ><div className='text-indigo-900 text-base'><ion-icon name="caret-forward-outline"></ion-icon> </div>try…throw…catch block</li>
                                 <li className='hover:text-black hover:underline  flex gap-1' ><div className='text-indigo-900 text-base'><ion-icon name="caret-forward-outline"></ion-icon> </div>Nested catch handlers</li>
 

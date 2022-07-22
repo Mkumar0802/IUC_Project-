@@ -24,8 +24,8 @@ function Selenium() {
             </div>
 
             <div>
-                <h1 className='text-2xl font-popins p-5  opacity-75 px-28'>
-                    <span className='text-indigo-900  text-3xl font-extrabold '>S</span>ELENIUM® Testing
+                <h1 className='text-2xl font-popins p-5   px-28'>
+                    <span className='text-indigo-900  text-3xl font-extrabold opacity-75'>S</span>ELENIUM® Testing
                 </h1>
                 <ul className='space-y-3 px-28 mt-4'>
                     <li className='text-slate-500 font-radio'>SELENIUM® is at present the most powerful Open Source Web browser Automation tool available. It is more suited for the agile methodology of coding and testing. SELENIUM® was first written in Java but it also supports .Net, Ruby, Perl, PHP and Python. This is a big plus when you want to build your framework in a language that has the highest adoption in the organization it is being built within. Tool like QTP force the user to use only VBScript. One can instantiate several concurrent tests with SELENIUM®.</li>
