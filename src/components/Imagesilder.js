@@ -9,8 +9,6 @@ const featuredProducts = [
     Iuc2,
     Iuc3
 
-
-
 ]
 let count = 0;
 let slideInterval;
@@ -59,7 +57,7 @@ function Imagesilder() {
     };
 
     return (
-        <div ref={slideRef} className="w-auto select-none relative">
+        <div ref={slideRef} className="w-auto select-none ">
             <div className="aspect-w-16 aspect-h-9">
                 <img src={featuredProducts[currentIndex]} alt="" />
             </div>
