@@ -10,7 +10,7 @@ function Main() {
   }, [])
   return (
     <>
-      <Imagesilder/>
+      <Imagesilder />
       <div className='bg-sky-50'>
         <div className='md:px-40 px-5'>
           <h1 className='md:text-3xl text-xl font-popins py-10'>
@@ -31,6 +31,12 @@ function Main() {
             "It is never too late to be what you might have been"
             <ul className='text-right md:text-xl '>-George Eliot</ul>
           </div>
+        </div>
+        <div>
+          <a href="https://wa.me/+919840235196" target="_blank" rel="noreferrer" className='p-1 bg-green-600 rounded-xl text-3xl  text-white fixed right-8 bottom-5  animate-tada animate-infinite '><ion-icon name="logo-whatsapp"></ion-icon> </a>
+        </div>
+        <div>
+        <a href="tel:+919840235196" target="_blank" rel="noreferrer" className='p-1 bg-blue-600 rounded-xl text-3xl  text-white fixed right-8 bottom-20  animate-tada animate-infinite '><ion-icon name="call-outline"></ion-icon> </a>
         </div>
         <div>
 
