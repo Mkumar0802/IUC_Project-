@@ -37,14 +37,14 @@ function About() {
                     </div>
                     <div data-aos="fade-left" className='md:w-2/6 px-5'>
                         <ul>
-                            <li className='text-slate-500 font-radio p-4 max-w-sm bg-white rounded-lg border shadow-2xl '>
+                            <li className='text-slate-500 font-radio p-4 max-w-sm bg-white rounded-lg border shadow-xl hover:shadow-2xl  shadow-indigo-100  hover:shadow-indigo-100 '>
                                 <h1 className='text-black  md:text-2xl text-xl font-popins font-semibold'>
                                     Who We Are
                                 </h1 >
                                 IUC computers is the best computer education institute in Chennai. Established in the year 1997,We are pioneer in Software and Hardware training. We strive for the betterment of our trainees. We know the real time work would be very different and challenging, we try our best to bridge the gap between training and the real time world. We constantly upgrade ourselves, implement new ideas, revise curriculum and constantly work on the feedback.
                             </li>
                             <br />
-                            <li className='text-slate-500 font-radio  p-4 max-w-sm bg-white rounded-lg border shadow-2xl'>
+                            <li className='text-slate-500 font-radio  p-4 max-w-sm bg-white rounded-lg border shadow-xl hover:shadow-2xl  shadow-indigo-100  hover:shadow-indigo-100'>
                                 <h1 className='text-black md:text-2xl text-xl   font-popins font-semibold'>
                                     Our Vision
                                 </h1>
@@ -58,7 +58,7 @@ function About() {
             </div>
             <div className='mb-10 mt-10'>
                 <div className='grid grid-cols-3 md:px-40 gap-4'>
-                    <div className=' bg-white rounded-lg border   p-2  transition ease-in-out delay-75  hover:-translate-y-1 hover:scale-110 duration-100 shadow-lg hover:shadow-2xl'>
+                    <div className=' bg-white rounded-lg border   p-2  transition ease-in-out delay-75  hover:-translate-y-1 hover:scale-110 duration-100 shadow-lg hover:shadow-2xl  shadow-indigo-100  hover:shadow-indigo-100'>
                         <div className=''>
                             <div className='flex justify-center'>
                                 <img className='object-scale-down w-1/2 h-1/2' src={training} alt='training' />
@@ -68,7 +68,7 @@ function About() {
                         </div>
                     </div>
 
-                    <div className=' bg-white rounded-lg border   p-2  transition ease-in-out delay-75  hover:-translate-y-1 hover:scale-110 duration-100 shadow-lg hover:shadow-2xl'>
+                    <div className=' bg-white rounded-lg border   p-2  transition ease-in-out delay-75  hover:-translate-y-1 hover:scale-110 duration-100 shadow-lg hover:shadow-2xl  shadow-indigo-100  hover:shadow-indigo-100'>
                         <div className=''>
                             <div className='flex justify-center'>
                                 <img className='object-scale-down w-2/4 h-4/5' src={job} alt='job' />
@@ -77,7 +77,7 @@ function About() {
                             <p className=' text-center  text-slate-800 font-radio '>Interview questions and real time scenarios discussion on topics covered for the day.</p>
                         </div>
                     </div>
-                    <div className=' bg-white rounded-lg border   p-2  transition ease-in-out delay-75  hover:-translate-y-1 hover:scale-110 duration-100 shadow-lg hover:shadow-2xl'>
+                    <div className=' bg-white rounded-lg border   p-2  transition ease-in-out delay-75  hover:-translate-y-1 hover:scale-110 duration-100 shadow-lg hover:shadow-2xl  shadow-indigo-100  hover:shadow-indigo-100'>
                         <div className=''>
                             <div className='flex justify-center'>
                                 <img className='object-scale-down w-1/2 h-1/2' src={project} alt='project' />
@@ -86,7 +86,7 @@ function About() {
                             <p className=' text-center  text-slate-800 font-radio '>Realtime projects discussion relating to the possible interview questions.</p>
                         </div>
                     </div>
-                    <div className=' bg-white rounded-lg border   p-2  transition ease-in-out delay-75  hover:-translate-y-1 hover:scale-110 duration-100 shadow-lg hover:shadow-2xl'>
+                    <div className=' bg-white rounded-lg border   p-2  transition ease-in-out delay-75  hover:-translate-y-1 hover:scale-110 duration-100 shadow-lg hover:shadow-2xl  shadow-indigo-100  hover:shadow-indigo-100'>
                         <div className=''>
                             <div className='flex justify-center'>
                                 <img className='object-scale-down w-1/2 h-1/2' src={work} alt='job' />
@@ -96,7 +96,7 @@ function About() {
                         </div>
                     </div>
 
-                    <div className=' bg-white rounded-lg border   p-2  transition ease-in-out delay-75  hover:-translate-y-1 hover:scale-110 duration-100 shadow-lg hover:shadow-2xl'>
+                    <div className=' bg-white rounded-lg border   p-2  transition ease-in-out delay-75  hover:-translate-y-1 hover:scale-110 duration-100 shadow-lg hover:shadow-2xl  shadow-indigo-100  hover:shadow-indigo-100'>
                         <div className=''>
                             <div className='flex justify-center'>
                                 <img className='object-scale-down w-1/2 h-1/2' src={resume} alt='job' />
@@ -105,7 +105,7 @@ function About() {
                             <p className=' text-center  text-slate-800 font-radio '>Resume preperation and mock interviews.</p>
                         </div>
                     </div>
-                    <div className=' bg-white rounded-lg border   p-2  transition ease-in-out delay-75  hover:-translate-y-1 hover:scale-110 duration-100 shadow-lg hover:shadow-2xl'>
+                    <div className=' bg-white rounded-lg border   p-2  transition ease-in-out delay-75  hover:-translate-y-1 hover:scale-110 duration-100 shadow-lg hover:shadow-2xl  shadow-indigo-100  hover:shadow-indigo-100'>
                         <div className=''>
                             <div className='flex justify-center'>
                                 <img className='object-scale-down w-1/2 h-1/2' src={placement} alt='job' />
@@ -114,7 +114,7 @@ function About() {
                             <p className=' text-center  text-slate-800 font-radio '>100% placement assistance.</p>
                         </div>
                     </div>
-                    <div className=' bg-white rounded-lg border   p-2  transition ease-in-out delay-75  hover:-translate-y-1 hover:scale-110 duration-100 shadow-lg hover:shadow-2xl'>
+                    <div className=' bg-white rounded-lg border   p-2  transition ease-in-out delay-75  hover:-translate-y-1 hover:scale-110 duration-100 shadow-lg hover:shadow-2xl  shadow-indigo-100  hover:shadow-indigo-100'>
                         <div className=''>
                             <div className='flex justify-center'>
                                 <img className='object-scale-down w-1/2 h-1/2' src={hrs} alt='job' />
