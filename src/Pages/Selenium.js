@@ -4,24 +4,27 @@ import { Link } from "react-router-dom";
 function Selenium() {
     return (
         <div className='bg-sky-50'>
-            <div className='bg-gradient-to-r from-indigo-900 to-blue-500 text-white'>
+
+            <div class="
+		bg-[url('https://cdn.pixabay.com/photo/2015/08/24/12/53/banner-904884_960_720.jpg')]  h-96 w-full bg-cover bg-center">
                 <div className='relative  text-9xl'>
 
                 </div>
-                <div className='flex justify-center p-44 '>
+                <div className='flex justify-center p-44'>
                     <div className=''>
-                        <h1 className='text-4xl font-semibold '><span className='text-white  text-6xl font-extrabold font-popins '>S</span>oftware Testing Training</h1>
-                       
-                       <ul className='flex'>
-                        <li className='flex py-5 px-3'><button className=' rounded-full p-3  px-1 py-1 hover:bg-blue-700   flex  text-justify hover:ring-4 ring-white transition ease-in-out duration-100'><Link to="/home">Home</Link></button> </li>
-                        <li className='flex py-5 px-3'><button className=' rounded-full p-3  px-1 py-1 hover:bg-blue-700   flex  text-justify  hover:ring-4 ring-4 ring-white transition ease-in-out duration-100'><Link to="/manualtesting">ManualTesting</Link></button></li>
-                        <li className='flex py-5 px-3  cursor-not-allowed'><button className=' rounded-full p-3  px-1 py-1 hover:bg-blue-700   flex  text-justify hover:ring-4  cursor-not-allowed  '>SELENIUM® Testing</button></li>
-                        <li className='flex py-5 px-3'><button className=' rounded-full p-3  px-1 py-1 hover:bg-blue-700   flex  text-justify  hover:ring-4 ring-4 ring-white transition ease-in-out duration-100'><Link to="/soapui">SoapUI Training</Link></button></li>
-                       </ul>
+                        <h1 className='text-4xl font-semibold'><span className=' text-6xl font-extrabold font-popins '>S</span>oftware Testing Training</h1>
                     </div>
-
                 </div>
             </div>
+            <div className='bg-gradient-to-r from-indigo-900 to-blue-500 flex justify-center text-white'>
+                <ul className='flex'>
+                    <li className='flex py-5 px-3'><button className=' rounded-full p-3  px-1 py-1 hover:bg-blue-700   flex  text-justify hover:ring-4 ring-white transition ease-in-out duration-100'><Link to="/home">Home</Link></button> </li>
+                    <li className='flex py-5 px-3'><button className=' rounded-full p-3  px-1 py-1 hover:bg-blue-700   flex  text-justify  hover:ring-4 ring-4 ring-white transition ease-in-out duration-100'><Link to="/manualtesting">ManualTesting</Link></button></li>
+                    <li className='flex py-5 px-3  cursor-not-allowed'><button className=' rounded-full p-3  px-1 py-1 hover:bg-blue-700   flex  text-justify hover:ring-4  cursor-not-allowed  '>SELENIUM® Testing</button></li>
+                    <li className='flex py-5 px-3'><button className=' rounded-full p-3  px-1 py-1 hover:bg-blue-700   flex  text-justify  hover:ring-4 ring-4 ring-white transition ease-in-out duration-100'><Link to="/soapui">SoapUI Training</Link></button></li>
+                </ul>
+            </div>
+
 
             <div>
                 <h1 className='text-2xl font-popins p-5   px-28'>

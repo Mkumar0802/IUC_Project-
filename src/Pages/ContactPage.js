@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react'
-import office from './Assets/contact.png'
+import office from '../components/Assets/contact.png'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
-function Contact() {
+function ContactPage() {
     useEffect(() => {
         AOS.init({ duration: 3000 });
     }, [])
@@ -11,17 +11,17 @@ function Contact() {
     return (
 
         <div>
-            {/* <div
+            <div
                 class="
-		bg-[url('https://cdn.pixabay.com/photo/2017/12/02/14/38/contact-us-2993000_960_720.jpg')]  h-96 w-full bg-cover bg-center"></div> */}
-        
-            <div className='flex  font-popins '>
+		bg-[url('https://cdn.pixabay.com/photo/2017/12/02/14/38/contact-us-2993000_960_720.jpg')]  h-96 w-full bg-cover bg-center"></div>
+
+            <div className='flex  font-popins'>
 
                 <div data-aos="fade-up">
                     <div className='w-full h-4/6 lg:h-5/6  flex flex-col lg:flex-row md:space-x-28 md:px-40 px-5'>
 
 
-                        <div className='md:w-2/6 mt-32 flex  '>
+                        <div className='md:w-2/6 mt-32 flex'>
                             <ul>
                                 <li className='font-popins md:text-3xl text-xl'> IUC Computers CIT Nagar</li>
                                 <li className='md:w-4/6  text-slate-500 text-sm mt-5 mb-5 '>  We would be happy to hear from you, please fill in the form below or mail us your requirements on</li>
@@ -74,4 +74,4 @@ function Contact() {
     )
 }
 
-export default Contact
+export default ContactPage

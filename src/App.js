@@ -33,6 +33,7 @@ import WebMarketing from './webpages/WebMarketing.js';
 import Navbar from './components/Navbar.js';
 import Footer from './components/Footer.js';
 import Services from './components/Services.js';
+import ContactPage from './Pages/ContactPage.js';
 
 
 
@@ -79,6 +80,7 @@ function App() {
         <Route path="webmaintenance" element={<WebMaintaince />} />
         <Route path="webmarketing" element={<WebMarketing />} />
         <Route path="services" element={<Services />} />
+        <Route path="contactpage" element={<ContactPage />} />
 
 
 

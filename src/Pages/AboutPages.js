@@ -17,6 +17,7 @@ function AboutPage() {
     }, [])
     return (
         <div>
+              
             <div className='flex  font-popins  mt-10'>
                 <div className='w-full h-4/6 lg:h-5/6 flex flex-col lg:flex-row justify-center'>
 

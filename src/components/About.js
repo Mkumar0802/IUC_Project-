@@ -7,6 +7,7 @@ import work from './Assets/work.jpg'
 import resume from './Assets/resume.jpg'
 import placement from './Assets/placement.jpg'
 import hrs from './Assets/24.jpg'
+// import bg  from './Assets/bg.png'
 
 
 // import { Link } from "react-router-dom";
@@ -27,6 +28,10 @@ function About() {
 
                 </div>
             </div> */}
+            <div
+                class="
+		bg-[url('https://cdn.pixabay.com/photo/2014/08/15/06/15/imprint-418593_960_720.jpg')]  h-96 w-full bg-cover bg-center"></div>
+
 
 
             <div className='flex  font-popins  mt-10'>

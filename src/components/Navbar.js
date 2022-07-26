@@ -330,7 +330,7 @@ export default function Navbar() {
                             </Transition>
                         </Menu></li>
                         <div className='relative'>
-                            <li className='inline-flex justify-center w-full  hover:text-blue-300  bg-white text-sm font-medium text-gray-700  focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500'><Link to='/contact'>Contact</Link>    </li>
+                            <li className='inline-flex justify-center w-full  hover:text-blue-300  bg-white text-sm font-medium text-gray-700  focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500'><Link to='/contactpage'>Contact</Link>    </li>
                         </div>
 
                     </ul>
